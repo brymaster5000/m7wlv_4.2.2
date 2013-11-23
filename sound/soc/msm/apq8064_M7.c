@@ -96,6 +96,7 @@
 #define RCV_SPK_SEL_PMGPIO    24
 #endif
 
+static int msm_rcv_control = 0;
 static int msm_hac_control;
 static int aux_pcm_open = 0;
 enum {
