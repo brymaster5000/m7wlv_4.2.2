@@ -1,0 +1,2 @@
+cp arch/arm/boot/zImage ../m7wlv_4.2/packages
+find . -name "*.ko" -exec cp {} ../m7wlv_4.2/packages \;
