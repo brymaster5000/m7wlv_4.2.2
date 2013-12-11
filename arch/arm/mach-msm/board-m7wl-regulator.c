@@ -486,7 +486,6 @@ struct regulator_init_data m7wl_saw_regulator_pdata_8921_s6 =
 struct regulator_init_data m7wl_saw_regulator_pdata_8821_s0 =
 	
 	SAW_VREG_INIT(8821_S0, "8821_s0",       850000, 1300000);
-#endif
 struct regulator_init_data m7wl_saw_regulator_pdata_8821_s1 =
 	SAW_VREG_INIT(8821_S1, "8821_s1",       850000, 1300000);
 
