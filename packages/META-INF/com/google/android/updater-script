@@ -7,7 +7,7 @@ ui_print("| || | |  \ | || | |\ | |__  ");
 ui_print(" \__/  |__/  \__/  | \| |__  ");
 ui_print("");
 ui_print("");
-ui_print("OBOne KernOB 4.2.2 v3");
+ui_print("OBKB - Lunar");
 ui_print("");
 ui_print("");
 ui_print("Mounting system");
