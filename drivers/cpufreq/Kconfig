@@ -154,7 +154,7 @@ config CPU_FREQ_GOV_LAGFREE
 
 config LAGFREE_MAX_LOAD
 	int "Max CPU Load"
-	default 50
+	default 80
 	depends on CPU_FREQ_GOV_LAGFREE
 	help
 	  CPU freq will be increased if measured load > max_cpu_load;
@@ -175,7 +175,7 @@ config LAGFREE_FREQ_STEP_DOWN
 
 config LAGFREE_FREQ_SLEEP_MAX
 	int "Max Sleep frequeny"
-	default 384000
+	default 594000
 	depends on CPU_FREQ_GOV_LAGFREE
 	help
 	  Max freqeuncy for screen off.
@@ -189,7 +189,7 @@ config LAGFREE_FREQ_AWAKE_MIN
 
 config LAGFREE_FREQ_STEP_UP_SLEEP_PERCENT
 	int "Freq step up percent sleep"
-	default 20
+	default 30
 	depends on CPU_FREQ_GOV_LAGFREE
 	help
 	  Frequency percent to step up while screen off.
